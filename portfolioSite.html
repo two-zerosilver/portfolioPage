@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name=“viewport” content=“width=device-width, initial-scale=1”>
+	<title>2X0=</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<!-- FontAwesome CDN 링크 -->
+	<script src="https://kit.fontawesome.com/c37e6a58ca.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fredoka+One&family=Noto+Sans+KR:wght@300;400&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- Swiper CDN -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+	<style>
+	.a {font-family: 'Fredoka One', cursive;}
+	
+	.b {font-family: 'Dela Gothic One', cursive;}
+	
+	body {font-family: 'Quicksand', sans-serif, 'Noto Sans KR', sans-serif; font-weight: 400;}
+	
+	/* 이미지 흑백에서 컬러 전환 */
+	img:hover {
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(0%);
+  	-moz-transition: .5s ease-in-out;
+  	-o-filter: grayscale(0%);
+	-o-transition: .5s ease-in-out;
+	}
+	
+	img {
+	-webkit-filter: grayscale(100%);
+  	-webkit-transition: .5s ease-in-out;
+  	-moz-filter: grayscale(100%); 
+  	-moz-transition: .5s ease-in-out;
+  	-o-filter: grayscale(100%); 
+  	-o-transition: .5s ease-in-out;
+	}
+	
+	.swiper-container {
+	width:100%;
+	height:100%;
+	}
+	.swiper-slide {
+		text-align: center;
+		display: flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+		align-items: center; /* 위아래 기준 중앙정렬 */
+		justify-content: center; /* 좌우 기준 중앙정렬 */
+	}
+	.swiper-slide img {
+		display: block;
+		width: 520px;
+		height: 450px;
+		object-fit: cover;
+	}
+	</style>
+	</head>
+
+	<body>
+	<nav class="navbar bg-transparent navbar-light bg-white navbar-expand-lg fixed-top ms-md-auto b" id="navbar1">
+		<div class="container pd-lr sm-pd" height="100">
+			<div class="col-lg-3 text-left pl-0">
+				<div class="social">
+					<span><a href="https://www.instagram.com/two.zerosilver_911/?hl=ko" title="Instagram">
+						<i class="fab fa-instagram-square pe-2" style="font-size: 32px; color: #686573"></i></a>
+					</span>
+					<span><a href="https://github.com/two-zerosilver" title="GitHub">
+						<i class="fab fa-github-square" style="font-size: 32px; color: #686573"></i></a>
+					</span>
+				</div>
+			</div>
+			<div class="col-lg-4 text-md-center pt-2"> 
+				<a class="logo" href="portfolioSite.html"><span class="fs-4">
+					<img class="mb-4" src="https://drive.google.com/uc?id=1J8t6fclXEBqwCXAj9yTt4T30er5_iZ4r" width="100" height="40"></span>
+				</a>
+			</div>
+			<div class="col-lg-5 text-right pr-0">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded=" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul id="accordion" class="nav navbar-nav navbar-left no-margin text-normal justify-content-end" date-in="fadeIn" date-out="fadeOut">
+					<li class="nav-item" style="color: #686573"><a class="nav-link" href="#anchor1">About me</a></li>
+					<li class="nav-item"><a class="nav-link" href="./architectureProject.html">Architecture</a></li>
+					<li class="nav-item"><a class="nav-link" href="./designProject.html">Design</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container-xl mt-2 my-5">
+		<div class="row" style="margin-top: 100px;">
+			<div class="col-lg-3 pe-3">
+			<img style="filter:grayscale(0%)" src="https://drive.google.com/uc?id=1RZiTrYYN5uuJUf2v6b1sFkDzIT3rrEWG" width="280" height="360">
+			</div>
+			<div class="col-lg-4">
+			<h2 class="a" style="color:#686573">about me</h2>
+				<h4 class="pb-3" style="color:#686573; font-weight: 700;">Creative and Passion</h4>
+				<p> 두려워하지 않고 뭐든지 도전해보는 편입니다. 비록 어려운 길이어도, 해보고 싶었던 것을 도전하는 열정이 지금의 저를 만들었다고 생각합니다.</p>
+				
+				<p>가장 좋은 디자인은 누가봐도 멋진 디자인이라고 생각합니다. 앉아서 머리로만 디자인한다면 좋은 결과물이 나올 수 없고, 직접 목표에 부딪히고 빠져들어야 비로소 멋진 디자인이 탄생한다고 생각합니다. 현실에 안주하지 않고, 결과에 만족하지 않는 디자이너가 되고 싶습니다. </p>
+				<h4 class="pt-3 pb-1" style="font-weight: 700; color:#686573"><strong>Design_skill</strong></h4>
+				<p style="font-weight: 500;"> 
+				@Photoshop @Illustrator @Powerpoint @Rhinoceros<br/>
+				@Sketchup @AutoCAD @PremierePro <br/>
+				#Adobe XD 배우는 중 #CINEMA 4D 배우고 싶어요 <br/>
+				</p>
+				
+			</div>
+			<div class="col-lg-5">
+				<div class="row pb-3">
+					<div class="col-lg-6">
+					<h2 class="a" style="color:#686573">Profile</h2>
+					<p style="font-weight: 500;">
+					이영은 <br/>
+					YoungEun Lee <br/>
+					1998.09.11 <br/>
+					</p>
+					</div>
+					<div class="col-lg-6">
+					<h2 class="a" style="font-size: 32px; color:#686573">Signature LOGO</h2>
+					<img class="mb-6" src="https://drive.google.com/uc?id=1J8t6fclXEBqwCXAj9yTt4T30er5_iZ4r" width="100" height="44">
+					</div>
+				</div>
+				<h2 class="a" style="color:#686573">Education</h2>
+				<p>
+				2017 한양대 에리카캠퍼스 '건축학과' 입학 <br/>
+				2017 한양대 에리카캠퍼스 '건축학과' 학과 학생회 디자인부 <br/>
+				2018 한양대 에리카캠퍼스 '건축학과' 학과 학생회 디자인부 부장 <br/>
+				2020 한양대 에리카캠퍼스 'ICT 융합학부' 전과 <br/>
+				2020 한양대 에리카캠퍼스 'ICT 융합학부' 학과 학생회 디자인부 <br/>
+				</p>
+				<h2 class="pb-2" style="font-weight: 700; color:#686573">Contact me</h2>
+				<span><i class="fab fa-instagram-square pb-2" style="font-size: 30px; color: #686573"></i></span>
+				<span class="align-items-center"  style="font-weight: 500;">https://www.instagram.com/two.zerosilver_911/?hl=ko</span> <br/>
+				<span><i class="fas fa-at" style="font-size: 25px; color: #686573"></i></span>
+				<span class="align-items-center" style="font-weight: 500;">ooo0911@hanyang.ac.kr</span>
+				<p></p> 
+			</div>
+	</div>
+	
+	<hr class="container my-5">
+	
+	<div class="text-center mt-5 mb-5 h-50 px-3">
+		<h1 class="a">Works</h1>
+	</div>
+	
+	<div class="swiper-container">
+		<div class="swiper-wrapper swiper">
+			<div class="swiper-slide"><img src="https://drive.google.com/uc?id=1qobI3qUgdzVUaUemLViX9RRsxfOobXfC" width="520" height="450"></div>
+			<div class="swiper-slide"><img src="https://drive.google.com/uc?id=1XLMa8wHPyri2sbMlAyiSLa4mw2pBqqH0" width="520" height="450"></div>
+			<div class="swiper-slide"><img src="https://drive.google.com/uc?id=1IuM3tzfN3fm2OrKI_VEnvs_UEbY7dDYE" width="520" height="450"></div>
+			<div class="swiper-slide"><img src="https://drive.google.com/uc?id=1iPXgU4X3dPdH1LcBsvOsPae_5d1YBTyt" width="520" height="450"></div>
+			<div class="swiper-slide"><img src="https://drive.google.com/uc?id=1ywc905A0Png87WPE42eGMbZ5274ZfXJE" width="520" height="450"></div>
+			<div class="swiper-slide"><img src="https://drive.google.com/uc?id=14TLB1CuzkzpuZXmEbnKqXA9dnql1DdRx" width="520" height="450"></div>
+			<div class="swiper-slide"><img src="https://drive.google.com/uc?id=1wh3isphJoQdx1uy54QKytVMdl5lHR3Fr" width="520" height="450"></div>
+		</div>
+		
+		<div class="swiper-pagination"></div>
+		
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+		
+		<div class="swiper-scrollbar"></div>
+	
+	</div>
+
+	<footer class="pt04 my-md-5 pt-md-5 border-top text-center text-muted">
+		<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="portfolioSite.html">@2X0=</a></p>
+	</footer>
+	
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+	new Swiper('.swiper-container', {
+		slidesPerView : 3, // 동시에 보여줄 슬라이드 갯수
+		spaceBetween :100, // 슬라이드간 간격
+		slidesPerGroup : 1, // 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
+	    autoplay:{delay: 2000},
+	    autoplayDisableOnInteraction: true,
+	
+	
+		// 그룹수가 맞지 않을 경우 빈칸으로 메우기
+		// 3개가 나와야 되는데 1개만 있다면 2개는 빈칸으로 채워서 3개를 만듬
+	
+		loopFillGroupWithBlank : true,
+		loop : true, // 무한 반복
+		pagination : { // 페이징
+			el : '.swiper-pagination',
+			clickable : true, // 페이징을 클릭하면 해당 영역으로 이동, 필요시 지정해 줘야 기능 작동
+		},
+	
+		navigation : { // 네비게이션
+			nextEl : '.swiper-button-next', // 다음 버튼 클래스명
+			prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
+		},
+	
+	});
+	</script>
+	
+	</body>
+</html>
